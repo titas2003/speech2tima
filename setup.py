@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='speech2tima',
-    version='0.0.3',
+    version='0.0.5',
     packages=find_packages(),
     install_requires=[
         'SpeechRecognition',

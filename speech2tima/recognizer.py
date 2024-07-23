@@ -8,7 +8,7 @@ recognizer = sr.Recognizer()
 # Function to listen to microphone and return recognized text
 def gettext():
     with sr.Microphone() as source:
-        print("Listening...")
+        print("Hi there!!\nI am Tima, your personal assistance waiting for your command...")
         recognizer.adjust_for_ambient_noise(source, duration=0.05)  # Adjust microphone for ambient noise
         
         try:
